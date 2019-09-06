@@ -1,0 +1,171 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Learning Journal}
+\author{Jesse Grubesich}
+\date{2019}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+\section{Learning Journal}
+
+
+
+\date{9th–16th August 2019}
+
+\section{Working with LaTeX – PoC Exercise}
+\subsection{Problem 1}
+Upon opening a LaTeX document, I immediately encountered issues. I thought I would attempt to get into the habit of using underscores in my project names and titles. This didn’t work in LaTeX. The text looked very strange; there were no spaces in my title and the first letter of each word was lower and smaller than the others. Evidently, the underscore is used as a sort of ‘subscript command’.
+\subsection{Solution 1}
+The solution was simple – replace the underscores with spaces in ‘Rich Text’. Rich Text looked confronting and seemed to behave temperamentally when I clicked on different places in Rich Text, and I am frankly afraid to click on too many things, but I see how it can quite easily be figured out.
+
+\subsection{Problem 2}
+When I Recompiled by document, I got a message saying “Error Rendering PDF Document” multiple times. This made my PDFs inaccessible for a while, and it was worrying at first.
+\subsection{Solution 2}
+Recompiling the document again fixed this problem, and my PDF (which I didn’t actually know was a PDF until that error showed up, although it seems obvious in hindsight given that I can’t directly type into it) was returned to normal. I have no idea why this happened or continues to happen, and I can’t find any hints in Rich Text. However, it doesn’t seem to be putting any of my data in Rich Text at risk, so I am not too concerned. I will have to ask about this.
+
+
+\subsection{Problem 3}
+Lost internet connection. The entire webpage was inaccessible, so I couldn’t even type, which is not normally something you need to worry about when working on a mere word document. Fortunately, I save often and I was able to recover my document easily, at least this time.
+\subsection{Solution 3}
+Naturally, save more often. Also figure out how to upload LaTeX documents to GitHub. It’s easy to upload the PDF, but as of yet, I don’t actually even know how to save a TEX document to my desktop, if that is even possible. Updates soon… (solution cont. below)
+
+\subsection{Problem 4}
+Out of curiosity, I clicked on a button whose function I didn’t know. It didn’t have a tooltip. It turned out to be a ‘back’ or ‘main page’ button. I think I may have lost a small amount of data since my last save. Not a big setback, but something to remember. Fortunately, I discovered how to download my LaTeX document – from the main page. It came in a ZIP folder. The next job will be figuring out how to reopen it from the ZIP folder or my desktop, or if it needs to be done from the site.
+\subsection{Solution 4}
+Luckily, I found the solution to problem no. 3 through this problem. To avoid problem no. 4 in the future, I will play around with a document one day and click on every button to test what they each do, so that I may learn.
+
+\subsection{Problem 5}
+There are some errors that I’m being notified about in the log. Some commands are apparently not working as desired on lines 64 and 75. It seems they were caused by deleting bullet points from Rich Text. Fortunately, they don’t seem to be affecting my document in any way.
+\subsection{Solution 5}
+I was too afraid to attempt to fix this problem before I uploaded the document, as nothing appears to be broken, so the ‘errors’ are still there in the upload. However, after I uploaded, I went back to the document to try to fix the error messages. I clicked on ‘Source’ and I deleted the commands on lines 64-66, and then the message disappeared when I recompiled the PDF. My document only appeared to go up to line 73, but there was an apparently useless "end itemize" command on line 71, so I also deleted that and ten the other error messages went away. I only have two notifications left in the log: “Overfull hbox (10.5551pt too wide) in paragraph at lines 55—56” and “Overfull hbox (0.9729pt too wide) in paragraph at lines 30—31” (I cannot type the backslash before the "hbox" because that destroys the formatting of this learning journal in overleaf. These notifications are blue – not red, as the other ones were. I can’t see anything anomalous in my Rich Text or Source, and it doesn’t appear to be affecting my document in any way, but it bothers me somewhat that I can’t see the problem or fix it, as I suspect these types of error message could give me grief later.
+
+\subsection{Notes and Reflection}
+LaTeX has a confusing format at first, but I am becoming more familiar with it. I can assume the function of most of the lines of code that appear in Rich Text and Source when you start a new document, but I don’t yet understand know what ‘usepackage[utf8]{inputenc}’ could possibly do. (Edit: after typing this in overleaf, it says that it's mean to be used only in the preamble; at least, that's what it says in the error message. Still unsure of its function, but I'll play around with it later.) I intend to play around with the commands to try to break the document and see what other things I can do. I will also try to find a list of commands if such a thing exists; I don’t see a place on the page where this could exist.
+
+When I was trying to download the TEX document, I ran into so many problems that it shocked me. I didn’t think I was too bad with computers and software, and I knew I was not particularly knowledgeable with these aspects, but working with all these different file types made me realise how little I know about how files actually function. I don’t even know what a ZIP folder technically does aside from store and compress files. Maybe that’s all it does. I really need to do some research on my own time about this next week. Right now, trying to figure out basic software is making me feel like a child.
+
+\subsection{Committing PoC PDF to GitHub and Problem with Overleaf}
+Uploading the PDFs to GitHub was an easy task. No problems encountered. However, after uploading my TEX documents to CloudStor, I redownloaded them to make sure they were opening correctly. They did open correctly on Overleaf, but this also inadvertently created three other files of the same name (‘Proof of Concept Scoping Exercise 1/2/3’). I can see how to ‘archive’ them, but so far, I cannot find a way to actually delete them. Perhaps this is intended to reduce the possibility of disastrous human errors. I will now archive them and then see if I can delete from the archives.
+Update: I have entered the archives and seen that I can delete them. I have deleted the unnecessary extra copies. I like this feature; it’s an effective mitigator to only be able to delete files once they’re archived.
+
+So far, the PoC exercise has been relatively simple and easy; there’s not much for me to talk about so far; I understand the core concepts of jobs, pains, gains, pain alleviators and gain creators.
+
+\subsection{Thoughts on GitHub}
+So far, GitHub has been easy to use and effective. As of yet, I haven’t run into any problems at all.
+
+\section{Data Carpentry – Spreadsheets}
+\subsection{Data Organization in Spreadsheets for Social Scientists}
+\subsection{Introduction}
+The Introduction is fairly straightforward. There are no exercises for me to complete, but while I was reading through this, it did take me a while to understand some terms. They are all common terms, like “plotting” and “cells”, but for some reason, it took me some time to visualise and understand  what they meant in this context. I suppose it is because it is intimidating to enter the unknown.
+\subsection{Formatting data tables in Spreadsheets}
+My first impression of the spreadsheet that they gave to us as a bad example was that it is, indeed, very bad. I could not make sense of it. Meanwhile, the clean example that they gave was much better. I can see the merits of good data organisation. It also reminds me of how poorly I’ve been organising data until this point. I’ve never used excel; I’ve always used word to store this sort of data, relying on my own ability to recall what is essentially shorthand, and I think my sins were even greater than the unclean example they gave.
+
+I understood the cardinal rules well enough, except for the CSV format. I have no idea what that could be, and I will have to wait until next class to find out. (Edit: From doing the Quality Assurance Exercises, I noticed that the “clean” spreadsheet is a CSV file. It’s good to see that it can still open in excel as well as other programs, but I still don’t know how it’s functionally different from a XLS file.) (Edit after doing the Exporting Data section: Ah. It’s easy to understand. Essentially a safer way to store data than in XLS formats, because Microsoft can be temperamental at best. Turns out I didn’t need to wait until next lesson to find out.)
+
+While working on the messy data spreadsheet, I didn’t notice that I had been skimming over the term, “tab”, until they explicitly mentioned that it’s actually a new file. Makes sense now. (Edit: actually, from working on the dates exercise, I saw that, in fact, there are tabs at the bottom of excel. They do not want us to create a completely new file. I have learned a valuable lesson, and I realised that I messed up in the first exercise by creating a new file. This could potentially complicate things greatly.) There are a fair few things I needed to fix in this spreadsheet. The most obvious things to fix were the multiple separate, randomly-placed tables, the inappropriate colour-coding, the spaces instead of underscores between some words, the missing data in “plots”, and the erratic use of yes/no/y/N/1 under “water use”. And “1” was even on the right whereas everything else was on the left.
+\subsection{Formatting Problems}
+I’m glad to see I was correct about most of the exercises. I did also suspect that having comments in the same cell was also problematic. Furthermore, I did think that something was strange about those -99/-999 numbers. I’ve taken note of the recommended methods of fixing them; hopefully I’ll be able to remember. Aside from this, this was a fairly straightforward part of the lesson. I didn’t find anything confusing, fortunately.
+\subsection{Dates as Data}
+I found this lesson to be particularly entertaining. I also found parts of it to be particularly befuddling. I understood the explanation about excel storing dates as a number, although it looked very confusing at first. I barely managed to understand the part about adding “days, months or years to a given date”. I got it in the end, but I’m not sure about the function of the “=B2” part. I suppose it must be a command of some sort, but it’s not explained in the lesson. I’ll have to ask about it later. (Edit: I figured it out without asking while working on the dates exercise. It’s a cell co-ordinate! Noted.). I am really unsure about the point of using the =MONTH/DAY/YEAR commands, as it seems easier to type in the number by hand. Perhaps is easier on a larger scale. In any case, it was easy to do the days, but I had problems with the months and the years. I tried to manually input the top row's month and year into the brackets of the command, but it showed up as 1 instead of 11 for the month, and 1905 instead of 2016 for the year. I found that very strange. I fixed it when I realised that I could just click on the cell and then click enter. Now I see these commands are much more efficient. I completed the rest of the exercise without a problem at a fairly quick pace. For the next mini-exercise, I expected the default year to be 1900, or the year that was above. How intuitive that it should be the current year.
+\subsection{Quality Assurance}
+I completed this exercise much more quickly that I thought I would. I ran into no problems, despite it looking like the most complicated exercise so far (although I doubt that evaluation of difficulty in hindsight), and I found it helpful and intuitive. I think I’m becoming more comfortable with navigating spreadsheets, so the rate at which I can complete these exercises has increased greatly.
+\subsection{Exporting Data}
+I hate Microsoft now. But jokes aside, it was easy to save something that I was working on in excel as a CSV file, and I’m glad it can be done. I now understand what CSV files are (and TSV for that matter) and how they function differently, as well. Seems simple and intuitive. Noted that commas are problematic. Happily, didn’t run into any problems completing or understanding this last section.
+
+
+\date{16th-23rd August 2019}
+\section{PoC 2 and Overleaf}
+Overleaf was much easier to use this time. However, I still ran into a few problems. I was mostly able to fix them.
+\subsection{Problem 1}
+The underscore between “to him” when I was discussing computational thinking completely messed up the formatting of the PDF, turning everything after it into subscript.
+\subsection{Solution 1}
+Removed the underscore. I Shall try to remember that in the future. Unfortunately, I don’t yet know how to place an underscore in the text without it being a command to create subscript.
+\subsection{Problem 2}
+Apparently Overleaf can’t read Cyrillic letters. This caused some problems for me when I was talking about Cyrillic-Latin transcription. 
+\subsection{Solution 2}
+Unfortunately, I did not find a way to fix this. One of the Cyrillic letters I used was H, which looks like a Latin letter, but I had to delete the ‘Backwards N’ and, unfortunately, explain what I meant in other ways. I will have to ask if there is a way to get Overleaf to recognise Cyrillic properly.
+\subsection{Problem 3}
+The “bibliography” at the end of the document is not exactly where I want it to be. I want it to be pushed further to the left, but it behaves as a line break, so it’s further to the right. 
+\subsection{Solution 3}
+Unfortunately, when I remove the line break in Rich Text, then it gets placed right next to the above paragraph, which is even worse. Searched Source for a line of code that I could possible delete to fix this problem, but I couldn't find anything. So far, this problem remains unfixed. Fortunately, it is only a small formatting issue.
+This time, there are no error messages in the log.
+\subsection{Problem 4}
+My computer crashed early this week. I think it was a problem with the power supply, or a motherboard short; in any case, it won't turn on.
+\subsection{Solution 4}
+Thank god I used GitHub. I was able to retrieve my work and resume working on my laptop. I didn't lose any data. I definitely see the merit in regularly backing up files online now, as this laptop doesn't even have a USB slot to which an external hard drive would connect. I would not have been able to easily work on my journal and PoC if I didn't backup on GitHib.
+\subsection{Problem 5}
+The 'date' command isn't working as I thought it would in Overleaf. I don't know why this is the case.
+\subsection{Solution 5}
+So far, I haven't found a solution. Maybe it is working properly; I can't tell; but I've left it in Rich Text and Source the way it is for future examination in any case. I think this is a habit I'm fortunately starting to internalise - keeping things that went wrong so that I can look at them later.
+\subsection{Notes and Reflection}
+I have written about everything that I wrote about in the first PoC exercise. Before going into this, I was less interested in the bibliography and formatting, and I decided to focus more on the music and linguistic transcription/translation. When I started writing, I realised that the musical transcription sounds very complicated. I understand the process in its entirety, but I don’t know if it will be feasible for me to attempt to create a script or software that recognises music. For now, I will keep this idea with me, and if it turns out not to be feasible, then I will focus my efforts on linguistic translation and transcription.
+
+I figured out how to use commands in overleaf this week. It's a backslash. For some reason, I tried using a forward slash last week. I chalk it up to a matter of bad perception. As a side not, I'm also using the terms LaTeX and Overleaf interchangeably right now. Not sure when I should be using one over the other or exactly how to demarcate the two terms.
+
+Aside from the problems I encountered and documented this week, LaTeX, GitHub and Cloudstor are all behaving well and I’m become more confident in using them. I am also happy to see that there are no errors in the log of overleaf for my learning journal. It is quite unexpected. I suppose I am getting better at navigating 'Source' and deleting any redundant commands.
+
+\date{23rd-29th August 2019}
+\section{PoC Elaboration 1}
+\subsection{Solution to Previous Problem (TEX GitHub Upload)}
+I finally figured out how to upload a TEX file to GitHub. I was previously confused as to whether I should be trying to upload the zip folder or the TEX file on its own. I never tried the file on its own because I had problems opening TEX files before, but since I have become more familiar with GitHub, it was quite easy to do.
+
+I have also learned how to keep underscores in Overleaf without giving the command to make everything afterwards subscript. I put a backslash before the underscore. Apparently this is the case for all of these sorts of commands or modifiers. This is good to know.
+
+\subsection{Notes and Revelations about Elaboration 1}
+I've realised that I felt quite unequipped to answer some of the questions when I first went into Elaboration 1. I didn't even know what an API was at first, nor how programming languages worked. Overall, I learned adequately what an API was during my research, and I found some very appropriate APIs that I could use in my project, but I am still unsure about how to use programming languages. I suppose this is something that I will also have to research going forward. I understand the concept of a pipeline, but exactly how to create one for my project is still an entirely foreign idea to me. I see, however, that it is fortunately a part of next week's data carpentry.
+
+\section{Data Carpentry - The Unix Shell}
+\subsection{Introducing the Shell}
+Intro was short and easy to understand. Not much more to say about it, really. Nelle's Pipeline made a good example of the CLI's efficiency. No exercises to complete.
+
+\subsection{Navigating Files and Directories}
+Completed part of this lesson in class already. I was a mac user, so I was having trouble at first, as the commands didn't line up with what they were shown to do in the lesson. The --help command was "an illegal option" in my terminal. I tried to fix it by using the -help command; it did something, but it was mostly incomprehensible to me; it showed a bunch of dates and number along with the directories. Fortunately, I was able to get around this problem by using the man command (edit: after searching the ls manual, I discovered what was happening when I was typing "ls -help"; I was activating the -h, -e, -l, and -p commands simultaneously. As a side note, I found it interesting that typing "ls -h -e -l -p" had the exact same effect as typing "ls -help". I also reversed the order in which I typed the letters, but I was less surprised to see the same result).
+
+It was difficult to tell the order in which things appeared when I gave the command ls -Rt, as ls -R caused the list to be so staggeringly long, but I'm fairly certain it was ordered by the most recently edited item (edit: in fact they were, as I can now see it says in the solution). I also just found out that the things I've been calling 'commands', such as -h, are called 'arguments'. Noted, and it will be so called from now on.
+
+It took a while to read through and do the exercises in the rest of the lesson, but I was able to do them all without problem. The trend seems to be that it's difficult to understand these lessons at first, but when I work through the first few exercises, it becomes much easier to understand and complete everything after it.
+
+\subsection{Working with Files and Directories}
+This section was quite easy to complete and understand. I first ran into a problem when the lesson told me to use the command "mv thesis/draft.txt thesis/quotes.txt" to rename my item. I expected it to rename my item, as explained, but instead it didn't do anything. I tried the command "mv draft.txt quotes.txt", expecting to have it rename the item, and it did rename the item. I am unsure why they told me something that didn't work - perhaps that method is specific to windows. In any case, it didn't work on my mac; the error message said there was no such file to rename. My method didn't have any text that confirmed completion, but I was able to check its success by, of course, using ls (edit: now that I think about it, they were probably in thesis's parent directory while thesis was my working directory.) (edit: Verified when I moved to the parent directory. Commands navigated to the correct directory and renames as intended).
+
+The rest of the lesson was pleasantly easy, though time-consuming, to complete, and I encountered no other problems. I was amazed by the powerful benefits of wildcards.
+
+\section{Notes, Learning Journal, Overleaf, etc.}
+\subsection{Understanding GitHub (Problem and Solution)}
+I finally understand GitHub. I thought I was using it correctly, but I was leaving the default description for the commit several times now. I thought that box was to rename the file, which I didn't want. Naturally, going forward, I'll type in meaningful commit messages, not just meaningful additional comments, as I've been doing. It's been making it inadvertently harder for me to navigate, as I've been having to click the ellipsis icon to see my commit comments!
+
+\date{29th August - 6th September 2019}
+\section{Data Carpentry - The Unix Shell (cont.)}
+\subsection{Pipes and Filters}
+When I used the command wc, I expected it to do the same thing as wc *pdb, as all of the files ended in .pdb anyway. What happened instead was it allowed me to type instead. I didn't realise this, and I instead used commands like pwd and ls, expecting them to work, but the only showed up as text. I was able to fix all of this by using ctrl+c, and then typing wc *pdb, which did exactly what I expected it to - list the line-word-character count of the files.
+
+As is becoming the trend, the exercises in the middle section once again gave me no problem. Pipe commands executed what I intended to happen and other commands are similarly easily understood. In fact, there were no more obstacle that I encountered until the end of this section. Everything functioned exactly as I thought it would, and I had no problems understanding everything, pipes seem like a very useful tool when dealing with any significant amount of data.
+
+\subsection{Loops}
+Going well so far. Ran into problems when I tried to use semicolons to separate commands. I tried to use more than one per line, and I expected it to complete the loop immediately. I was mistaken. I read the instructions again, and I saw that they said that semicolons were only able to separate two commands per line - not any more than that. Worked as intended and expected otherwise. (Edit: I've come to realise that the instructions were slightly misleading, actually. You can put on more than one semicolon, as evidenced later in the lesson. I see now my error came from putting a semicolon after the "do", where there should not have been one.
+
+I'm starting to notice something very inefficient that the lessons do. They give the exercise first, and then they explain the commands, leaving me in the dark as to what commands and functions I am actually inputting. For instance, I initially had no idea what the symbol '(greater than)' on a new line was supposed to indicate. I find this order of explanation very frustrating and time-wasting, because when I read the instructions first, I know exactly what to do. I will take that approach from now on.
+
+The rest of the episode was again lengthy but trouble-free to complete.
+
+\subsection{Shell Scripts}
+This is beginning to get very complex; however, I think I understand it. It took a long time to finish the exercises on this one, but everything that I expected to happen ended up happening. Not much more to say about this one, really - It's very powerful; it's convenient; it takes a lot of time to learn.
+
+\subsection{Finding Things}
+Grep definitely seems like the most convenient tool for printing certain lines that they've showed us so far; I can certainly see myself using this more than head or tail, for instance, but they obviously all have their uses. Despite grep being half the  episode, I found it remarkably easy to learn. No problems encountered, and everything worked as expected.
+
+This lesson was even quite easy when it came to using the find command, so I thought I would experiment to see what would happen if I changed things here or there. I eliminated the brackets that surrounded the find command; I expected the command would either have a different function from this, or that it would bring up an error. It brought up an error. I played around a little more in the remainder of the episode - removing spaces, etc., but every tweaked command gave an error. It seems that when we're dealing with more complex commands, everything has to be effectuated precisely. The rest of the lesson was no problem; the focus was on find and grep, which are actually pretty straightforward commands.
+
+\section{PoC Evaluation 2}
+
+\section{Notes}
+\subsection{Overleaf Commands Experimentation}
+I created a contents page this week for overleaf. Very easy; worked exactly as expected. However, I still don't know how to push things to the next page, as I would like to do.
+
+I figured it out. The newpage command was easy to find and it worked as expected.
+
+\end{document}
